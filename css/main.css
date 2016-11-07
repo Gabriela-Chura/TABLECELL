@@ -1,0 +1,129 @@
+@font-face {
+    font-family:'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dosis Regular'), local('Dosis-Regular'), url(http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
+}
+body, div, h1, h2, h3, h4, h5, h6, 
+p, ul, ol, li, dl, dt, dd, img, form, 
+fieldset, input, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #ffffff;
+    font-family: Dosis, sans-serif;
+}
+
+/**li {
+	width: 162px;
+    height: 162px;
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background-color: black;
+	border: solid 1px #fff;
+	width: 150px;
+    height: 81px;
+    opacity: 0;
+
+}
+
+a:hover  { 
+    opacity: 1;
+    transition: all 700ms ease;
+    left: 100px;
+    }
+
+.uno{
+    background-color: aquamarine;
+}
+
+.dos{
+    background-color: cornflowerblue;
+}
+
+.tres{
+    background-color: coral;
+}
+
+.cuatro{ 
+    background-color: deeppink;
+    height: 81px;
+} */
+
+nav li {
+    display: block;
+}
+
+nav li a span{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    display: table;
+    padding-left: 60px;
+}
+
+nav li a {
+    display: table;
+    vertical-align: middle;
+    opacity: 1;
+    transition: all 0.3s;
+    text-transform: uppercase;
+}
+
+nav li a:hover span {
+    opacity: 1;
+}
+
+nav li a:hover{
+    
+    padding-left: 60px;
+}
+
+nav li:nth-child(1) a{background: #70C5F7; color: #70C5F7}
+nav li:nth-child(2) a{background: #7AF0DC; color: #7AF0DC}
+nav li:nth-child(3) a{background: #FDB87A; color: #FDB87A}
+nav li:nth-child(4) a{background: #FB959E; color: #FB959E}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
